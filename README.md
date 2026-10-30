@@ -1,3 +1,5 @@
+> **Fork research branch:** [RTX 3090 + V100 on MSI B550M](research/mixed-gpu/README.md) contains a separate exact-machine mixed-GPU experiment, source overlay and sanitized results. The upstream support matrix below does not describe this new profile.
+
 # Windows GPU UNLOCK
 
 **English** | [한국어](README.ko.md)

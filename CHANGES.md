@@ -1,3 +1,9 @@
+# Fork addition: 2026-10-30 mixed-GPU research
+
+Added research/mixed-gpu/: a source overlay for the pinned MSI B550M / ASUS RTX 3090 / Tesla PG500-216 setup, host replay/build tooling and sanitized hardware/tensor evidence. Normal upstream sources and profile-generator admission are unchanged. One successful actual boot is documented; no general mixed-GPU support or before/after speedup is claimed.
+
+Original change history follows.
+
 # Changes
 
 ## Unreleased — preserve captured state in host qualification fixtures

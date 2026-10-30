@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-30",
+  "upstream_commit": "263741419ece69bcce73162ad5e98a742db8c6b5",
+  "hardware": {
+    "motherboard": "MSI B550M PRO-VDH WIFI (MS-7C95)",
+    "bios": "2.N0",
+    "cpu": "AMD Ryzen 9 3900X (no iGPU)",
+    "target": {
+      "name": "ASUS RTX 3090 24 GiB",
+      "pci": "0000:2b:00.0",
+      "device": "10de:2204",
+      "subsystem": "1043:87af"
+    },
+    "companion": {
+      "name": "Tesla PG500-216 / V100 32 GiB",
+      "pci": "0000:04:00.0",
+      "device": "10de:1df0",
+      "subsystem": "10de:13f5",
+      "firmware_gop": false
+    },
+    "windows_nvidia_driver": "580.88",
+    "nvgop_version": "60009"
+  },
+  "outcome": {
+    "preflight_checks_passed": 20,
+    "flr_count": 1,
+    "transaction_result": 0,
+    "clean": true,
+    "fault": 0,
+    "retained": 0,
+    "live_maps": 0,
+    "returned_to_windows": true,
+    "both_gpus_detected_after": true,
+    "seconds_from_usb_log_write_to_windows_boot": 2.5
+  },
+  "original_logs_sha256": {
+    "loader": "085656ee8e653f3cd3a488f810dcfc803a167566657d24062a00238bf2e7b48c",
+    "child": "65b0b39e07e81d48bacd85cbd15a1b663931d660a71366b39aafcd81d652d9be"
+  },
+  "hardware_tested_binaries_sha256": {
+    "loader": "dbee9b821f61e322b1db7a17fab50eab95d62532981b65fbc6d664ce556e4b90",
+    "child": "7a4fd754e6f8055244dd4f28e8013c0a7e9e7e84fad97fbf22c398d64c46206a"
+  },
+  "scope": "One successful actual unlock boot on this exact profile, following two read-only cold captures and one release-only handoff. No broad mixed-GPU compatibility or repeated-boot stability claim."
+}

@@ -1,0 +1,146 @@
+﻿{
+    "upstream_commit":  "263741419ece69bcce73162ad5e98a742db8c6b5",
+    "hardware_tested_sources":  [
+                                    {
+                                        "path":  "internal-boot/boot/captured-windows-handoff.h",
+                                        "sha256":  "d54179d7107712aa7eec268ab9d34ce72e15dfb2c2e6c1700da7b0e4c59fffba",
+                                        "kind":  "added"
+                                    },
+                                    {
+                                        "path":  "internal-boot/boot/full-release.c",
+                                        "sha256":  "0eed2a3e3fdb24c23ec74ab73070876bcbed3cdace508143bb105d1a45a1ca45",
+                                        "kind":  "modified"
+                                    },
+                                    {
+                                        "path":  "internal-boot/boot/handoff.c",
+                                        "sha256":  "35d42615f94f6066b0ac5edf0edd9dfffa72d337d37823718e67b0abee2f55c2",
+                                        "kind":  "modified"
+                                    },
+                                    {
+                                        "path":  "internal-boot/boot/mixed-mocks-declarations.h",
+                                        "sha256":  "6dddb8671ff68181ea5ff89e5548196ee3ca882c154359fc48cb96ebd7df2468",
+                                        "kind":  "added"
+                                    },
+                                    {
+                                        "path":  "internal-boot/boot/prepare-console.c",
+                                        "sha256":  "16b5b8219a86dc51c9a4dc206f4efb4bd02bd87ecb537718e0df32782b99c4f3",
+                                        "kind":  "modified"
+                                    },
+                                    {
+                                        "path":  "internal-boot/boot/release-only-choice.h",
+                                        "sha256":  "93f80a1f93c38862edf307ccaddc5c79ba6928898ea67bfacff6fbba9b3f3857",
+                                        "kind":  "added"
+                                    },
+                                    {
+                                        "path":  "internal-boot/boot/release-only-flow.c",
+                                        "sha256":  "917010b14d886fc24c28eafaf85070c04cc75ecdc7e94ae7575a88d3f79deffe",
+                                        "kind":  "added"
+                                    },
+                                    {
+                                        "path":  "internal-boot/boot/release-only-flow.h",
+                                        "sha256":  "38875e0cfb0838169d6eec367a87f8a0c075327de9e5f8bfda3b915e7e236db3",
+                                        "kind":  "added"
+                                    },
+                                    {
+                                        "path":  "internal-boot/boot/test_console.c",
+                                        "sha256":  "e9725ec225f359956e13f078fcf401056ad0390c26c8c918620f4f20958c2173",
+                                        "kind":  "modified"
+                                    },
+                                    {
+                                        "path":  "internal-boot/boot/test_full.c",
+                                        "sha256":  "797ab33355f276faedabaac36b9cdec23b0e553764d9dd2e770e189ba71e9a6e",
+                                        "kind":  "modified"
+                                    },
+                                    {
+                                        "path":  "internal-boot/boot/test_headless_full.c",
+                                        "sha256":  "f834b6d7b41c208f1f913daac5119781c0dd5c55da303dc2403b7a8d111ee185",
+                                        "kind":  "modified"
+                                    },
+                                    {
+                                        "path":  "internal-boot/boot/test_mixed.c",
+                                        "sha256":  "879314af8f1526a1740b40c27fed81a4f6c9728d15a47850c955d412f4f8e33c",
+                                        "kind":  "added"
+                                    },
+                                    {
+                                        "path":  "internal-boot/boot/test_release_only_flow.c",
+                                        "sha256":  "c7d6f9ffd8365261edbd2bcaf50a15f8e76e9397b0f4336f27f53635cf451081",
+                                        "kind":  "added"
+                                    },
+                                    {
+                                        "path":  "internal-boot/boot/test_unlock_choice.c",
+                                        "sha256":  "0625347422c18901a55add92fa975d96f63691c15152c4f9be69477f7eb6e7f7",
+                                        "kind":  "added"
+                                    },
+                                    {
+                                        "path":  "internal-boot/boot/unlock-research-choice.h",
+                                        "sha256":  "c4c4cee28a89ed98ce957d78dbbf84b2e6928fb838842ba22a55769013fb2566",
+                                        "kind":  "added"
+                                    },
+                                    {
+                                        "path":  "internal-boot/unlock/app.c",
+                                        "sha256":  "bf46cc652332aca1e910d038d6d467c138583bd9abf45147b7fa6ef50ebe4902",
+                                        "kind":  "modified"
+                                    },
+                                    {
+                                        "path":  "internal-boot/unlock/baseline-port.c",
+                                        "sha256":  "aeb8c5d90dff9f30e2e773d22506f9aeea3a1a6b7296498e5fc008676e35ed52",
+                                        "kind":  "added"
+                                    },
+                                    {
+                                        "path":  "internal-boot/unlock/machine-profile.h",
+                                        "sha256":  "108bde3fc67e71f94b38b02882390e5ebc2736d1cdba5b6616f06698549c8257",
+                                        "kind":  "modified"
+                                    },
+                                    {
+                                        "path":  "internal-boot/unlock/mixed-guard.c",
+                                        "sha256":  "cdebcc9b11c32fc7284a842a0a27d9ef412c7e83185380ea2f5549ee35e274ac",
+                                        "kind":  "added"
+                                    },
+                                    {
+                                        "path":  "internal-boot/unlock/mixed-guard.h",
+                                        "sha256":  "6b14c779b4d4bf015a29948ddaec303fb26988a8950ec0af2f23861a62802ce4",
+                                        "kind":  "added"
+                                    },
+                                    {
+                                        "path":  "internal-boot/unlock/mixed-policy.h",
+                                        "sha256":  "3d5c35dfbdd1e226870ff3a6980f92b1aaef860e69031d93a0fa13c469d9d531",
+                                        "kind":  "added"
+                                    },
+                                    {
+                                        "path":  "internal-boot/unlock/ownership.c",
+                                        "sha256":  "1cdb3a73916a13b9c6466ddb7e901f55c1a2eecfa0e2bf19500359051e765e81",
+                                        "kind":  "modified"
+                                    },
+                                    {
+                                        "path":  "internal-boot/unlock/port.c",
+                                        "sha256":  "3bc30f3fb15372175bbe2326270584fd5562d1c79c757122acac55676da38294",
+                                        "kind":  "modified"
+                                    },
+                                    {
+                                        "path":  "internal-boot/unlock/port.h",
+                                        "sha256":  "ed656fe204fe81578f5860d95c31c3f277af2accbb8c3e3624d1f9b33e6d2604",
+                                        "kind":  "modified"
+                                    },
+                                    {
+                                        "path":  "internal-boot/unlock/profile-local.h",
+                                        "sha256":  "9d588a4904269bd8d2ffaa9fa05d2dd3a8ab34cfd639e0190bf90f24f5d9f860",
+                                        "kind":  "added"
+                                    },
+                                    {
+                                        "path":  "internal-boot/unlock/tests/test_core_captured.c",
+                                        "sha256":  "90234a7c48ac18be6cbbcd543f2caf0e0ac8501c8ae68c8196adb608867e61ed",
+                                        "kind":  "added"
+                                    },
+                                    {
+                                        "path":  "internal-boot/unlock/tests/test_full_mixed.c",
+                                        "sha256":  "170ba977a17f99f3a6e9637ec38f0067e3bf429e423d2fcb7ab63afd5a82e88e",
+                                        "kind":  "added",
+                                        "provenance":  "Latest tested FullTransactionReplay harness; production runtime sources remain identical to hardware-tested candidate."
+                                    },
+                                    {
+                                        "path":  "internal-boot/unlock/tests/test_mixed_port.c",
+                                        "sha256":  "9500080986d894f5535a5449d5aabe9a765cb67d8d0e4e24bbeb6717421e32bc",
+                                        "kind":  "added"
+                                    }
+                                ]
+}

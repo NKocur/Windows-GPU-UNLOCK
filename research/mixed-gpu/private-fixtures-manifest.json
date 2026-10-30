@@ -1,0 +1,55 @@
+{
+  "note": "Private original hardware-capture fixtures are NOT distributed. Hashes permit exact local replay. No firmware byte content in this manifest.",
+  "cases": [
+    {
+      "case": "case1",
+      "files": {
+        "pci-fixture.h": {
+          "bytes": 5897,
+          "sha256": "877acc024500826af3375acb013ccf8fe72464b264af20bdf78e673e5d5cd040"
+        },
+        "replay-fixture.h": {
+          "bytes": 18393,
+          "sha256": "f416855b92a12a625c687e1a15c7aaeca87c4e55563f48b8f550e3143348a933"
+        },
+        "config.bin": {
+          "bytes": 256,
+          "sha256": "d054fb986ef702e42517b915ed520f6388a65606ca71846ab7d85c6cc28da6e5"
+        },
+        "PROM.BIN": {
+          "bytes": 1048576,
+          "sha256": "658b1898b899a3e3efd0313eba1f484229d06c4fde70ac84d04a4128881ff9fd"
+        },
+        "IMG24.BIN": {
+          "bytes": 177920,
+          "sha256": "91f33ea6172fa93a2558421d8557820358e4592620f360783f012defb549f3c7"
+        }
+      }
+    },
+    {
+      "case": "case2",
+      "files": {
+        "pci-fixture.h": {
+          "bytes": 5897,
+          "sha256": "877acc024500826af3375acb013ccf8fe72464b264af20bdf78e673e5d5cd040"
+        },
+        "replay-fixture.h": {
+          "bytes": 18393,
+          "sha256": "3d6927b7abcb463c4ef8e173708125ac12710c74ed61fb1dc292f49767ff0363"
+        },
+        "config.bin": {
+          "bytes": 256,
+          "sha256": "d054fb986ef702e42517b915ed520f6388a65606ca71846ab7d85c6cc28da6e5"
+        },
+        "PROM.BIN": {
+          "bytes": 1048576,
+          "sha256": "658b1898b899a3e3efd0313eba1f484229d06c4fde70ac84d04a4128881ff9fd"
+        },
+        "IMG24.BIN": {
+          "bytes": 177920,
+          "sha256": "ce943e724e524726ac5fa89917140673a96b320091a409d272836ca9cfdb262f"
+        }
+      }
+    }
+  ]
+}

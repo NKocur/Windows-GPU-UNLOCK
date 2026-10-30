@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-30",
+  "mode": "Fresh external workspace, public replay_and_build.py --mode build",
+  "tests": {
+    "scope": "Host replay only; no GPU or UEFI code executed on hardware",
+    "u_choice_checks": 637,
+    "loader_assertions": [
+      1604308,
+      1604308
+    ],
+    "baseline_scenarios": 84,
+    "guarded_assertions": 34164202,
+    "guarded_original_scenarios": 84,
+    "guarded_extra_scenarios": 9,
+    "unsafe_build_refusals": [
+      "missing companion guard",
+      "missing USB contract",
+      "missing selector policy",
+      "missing internal child contract",
+      "missing headless policy",
+      "missing research admission",
+      "host switch in firmware",
+      "release-only in unlock",
+      "override segment",
+      "override identity"
+    ],
+    "clang_sha256": "57e32b1ea2456f12f97bf802453171bbff12d56b2c486b4eca0c75343c0cda2c",
+    "source_manifest_sha256": "a726060c4aeac2cc669b73b70fd366ee7b3af82eac4fa7f9429c32eeb517dc45"
+  },
+  "compiled_efi": {
+    "child_bytes": 75264,
+    "child_sha256": "03fd23ff7f2458e8b9529018b692c2d4c195c805af7bd1f37a9d817c747a974c",
+    "loader_bytes": 45056,
+    "loader_sha256": "89f8990e8ee1c8458aa44aa5ad0f36c6ccc77e42ee29fa4648fe15bab4b6ba08",
+    "both_pe_verified": true,
+    "staged": false,
+    "hardware_booted": false
+  },
+  "notes": [
+    "Fresh public-tooling host tests and EFI compilation passed; no GPU work, USB changes or boot performed.",
+    "These compiled file hashes differ from the previously hardware-tested originals. New packaging artifacts are not claimed as hardware-tested.",
+    "Production override sources retain the hardware-tested snapshot; local output paths can affect compiler embedded strings.",
+    "Latest full replay test harness includes cached DMA diagnostic assertion; pre-test candidate copy omitted that one test-only assertion."
+  ]
+}
